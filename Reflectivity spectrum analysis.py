@@ -39,8 +39,7 @@ plt.rc('axes',labelsize = 10)
 
 
 # In[9]:
-
-
+# ()
 
 #We can calculate the reflectance now by comparing all the sample Intensity against the mirror's Intensity.  
 Reflectance = {'w_num':(Mirror_data['W_num']),'T25':(T25BTO['Int_T25']/Mirror_data['Int_mirror'])
